@@ -1,5 +1,5 @@
 import React from 'react';
-import PokemonContainer from '../containers/PokemonContainer';
+// import PokemonContainer from '../containers/PokemonContainer';
 
 const PokemonDetail = ({selectedPokemon, addPokemon}) => {
 
@@ -17,6 +17,7 @@ const PokemonDetail = ({selectedPokemon, addPokemon}) => {
     const handleClick = () => {
         addPokemon();
     }
+    
 
 // console.log(selectedPokemon.stats[0].base_stat);
 
